@@ -1,6 +1,6 @@
-# CSharp - From Base to Ace
+# Programming - From Base to Ace
 
-Welcome to the draft version of this CSharp Course for VIVES University of Applied Sciences in Bruges.
+Welcome to the draft version of this Programming Course for VIVES University of Applied Sciences in Bruges.
 
 Comments and additions are more than welcome.
 

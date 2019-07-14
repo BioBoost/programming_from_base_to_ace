@@ -6,8 +6,25 @@ module.exports = {
       {text: 'Introduction to Programming', link: '/introduction/'},
       {text: 'Object Oriented Programming', link: '/oop/'}
     ],
-    displayAllHeaders: true,
-    sidebar: 'auto',
+    sidebar: {
+      '/introduction/': [
+        '',
+        '01_introduction_to_computer_programming/',
+        '02_basic_building_blocks/'
+      ],
+
+      '/oop/': [
+        '',
+      ],
+
+      // fallback
+      '/': [
+        '',
+        '/introduction/',
+        '/oop/'
+      ]
+    },
+    sidebarDepth: 2,
     repo: 'BioBoost/programming_from_base_to_ace',
     docsDir: 'docs',
     docsBranch: 'master'
